@@ -1,0 +1,19 @@
+{
+  "tarefas": [
+    {
+      "nome": "Módulo 1",
+      "descricao": "Introdução à Língua Brasileira de Sinais (Libras) com foco no alfabeto manual, vocabulário básico, expressões faciais e gestos. Exploração da cultura surda e princípios de inclusão. Capacitação para iniciar conversas simples em Libras.",
+      "link": "linklink"
+    },
+    {
+      "nome": "Módulo 2",
+      "descricao": "Aprofundamento das habilidades em Libras com ênfase em estruturas gramaticais, vocabulário ampliado e expressões idiomáticas. Desenvolvimento de narrativas, diálogos e descrições de situações cotidianas. Compreensão aprofundada da cultura e sociedade surda.",
+      "link": "linklink"
+    },
+    {
+      "nome": "Módulo 3",
+      "descricao": "Consolidação das habilidades linguísticas e culturais em Libras. Exploração de tópicos complexos, como debates, interpretação de textos e produção de sinais elaborados. Ênfase na fluência, compreensão e expressão criativa em Libras, incluindo vocabulário técnico e narrativa literária.",
+      "link": "linklink"
+    }
+  ]
+}

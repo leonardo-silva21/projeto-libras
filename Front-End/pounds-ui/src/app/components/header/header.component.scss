@@ -1,0 +1,29 @@
+header{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.527);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 2vw 1vw 2vw;
+}
+
+
+.option-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-login{
+    width: 3vw;
+    height: 2vw;
+}
+
+.button-header{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    background: none;
+}

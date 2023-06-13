@@ -1,0 +1,59 @@
+.block-description{
+    padding: 2vw;
+}
+
+.block-description{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-size: 18;
+}
+
+.image-libra{
+    width: 20vw;
+}
+
+#text1{
+    font-size: 45px;
+    margin-bottom: 1vw;
+}
+
+.button-dialog{
+    cursor: pointer;
+    padding: 1vw;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 10px;
+    font-size: 1vw;
+    background-color: black;
+}
+
+.block-objectivePounds{
+    margin: auto;
+    width: 60vw;
+}
+
+.text-objective{
+    font-size: 16px;
+}
+
+.redirect{
+    cursor: pointer;
+    width: 15vw;
+    height: 2.5vw;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 0.5vw;
+    font-size: 10px;
+    margin-top: 4vw;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}

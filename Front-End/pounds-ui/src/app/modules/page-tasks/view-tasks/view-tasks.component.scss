@@ -1,0 +1,122 @@
+.container-header{
+    display: flex;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.116);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    padding-bottom: 1vw;
+    margin-top: 1vw;
+
+    h3{
+        color: #2A385D;
+        font-size: 1.3rem;
+    }
+}
+
+.block-filter{
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-exit{
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    h3{
+        margin-right: 5px;
+    }
+}
+
+.exit-icon{
+    width: 2vw;
+}
+
+.info-libras{
+    background-color: rgba(226, 226, 226, 0.103);
+    display: flex;
+}
+
+.info-child-libras{
+    margin-top: 3vw;
+    padding-bottom: 6vw;
+    padding-left: 3vw;
+    width: 50%;
+
+    h2{
+        color: #2A385D;
+        font-size: 2.5rem;
+        margin-bottom: 1vw;
+    }
+
+    p{
+        font-size: 1.1rem;
+        color: #2A385D;
+    }
+}
+
+.img-libras-description{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    width: 40vw;
+}
+
+.block-three{
+    display: flex;
+    margin: auto;
+    margin-top: -2vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 70%;
+    height: 5vw;
+    background-color: rgba(226, 226, 226, 0.288);
+
+    h2{
+        color: #2A385D;
+    }
+}
+
+.container-task{
+    display: flex;
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    border-radius: 10px;
+    background-color: rgba(226, 226, 226, 0.288);
+    width: 60vw;
+    height: 12vw;
+}
+
+.info-title-module{
+    padding-left: 2vw;
+    padding-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    display: flex;
+    justify-content: space-evenly; border-right: 1px solid rgba(0, 0, 0, 0.199);
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        font-size: 1.2rem;
+        color: #0c0e14;
+        margin-bottom: 1vw;
+    }
+}
+
+.image-module{
+    width: 4vw;
+}
+
+
+.info-module{
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+}
+

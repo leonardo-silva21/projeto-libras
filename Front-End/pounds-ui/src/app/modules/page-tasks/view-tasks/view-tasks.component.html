@@ -1,0 +1,44 @@
+<div class="container-header">
+    <div>
+        <h3>Olá, {{userName}}</h3>
+    </div>
+    <div class="block-filter">
+        <h3>Aulas</h3>
+        <h3>Exercícios</h3>
+    </div>
+    <button class="container-exit" [routerLink]="['/view/home']">
+        <h3>Sair</h3>
+        <img class="exit-icon" src="assets/sair.png">
+    </button>
+</div>
+<div class="info-libras">
+    <div class="info-child-libras">
+        <h2>Introdução à Libras</h2>
+        <P>
+            A Língua Brasileira de Sinais (Libras) é a língua usada pela comunidade surda no Brasil. É uma língua
+            visual-gestual completa, com sua própria gramática e estrutura.
+            A Libras permite uma comunicação rica e complexa, sendo essencial para a inclusão e a igualdade de oportunidades
+            dos surdos.
+            Aprender e usar a Libras é uma forma de promover a comunicação, o acesso à informação e a interação entre surdos
+            e ouvintes.
+            Valorizar a Libras contribui para um ambiente mais inclusivo e respeitoso.</P>
+    </div>
+    <div>
+        <img class="img-libras-description" src="assets/librainfo.png">
+    </div>
+</div>
+<div class="block-three">
+    <h2>Vamos aprender!!!</h2>
+</div>
+<div  class="container-task" *ngFor="let lesson of lessons">
+    <div class="info-title-module">
+        <div class="module-number">
+            <p class="modulo-nome">{{lesson.nome}}</p>
+        </div>   
+        <img class="image-module" src="assets/li.png">
+    </div>
+    <div class="info-module">
+        <p>{{lesson.descricao}}</p>
+    </div>
+    
+</div>

@@ -1,0 +1,27 @@
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img class="icon-pound" src="assets/li.png">
+    <h2>Faça seu cadastro em nossa plataforma</h2>
+</div>
+<div class="container-form">
+    <form [formGroup]="userForm" class="cadastre-form" >
+        <div *ngIf="message" class="success-message">{{message}}</div>
+        <div>
+            <label for="user-name">Nome Completo:</label>
+            <input id="user-name" type="text" formControlName="nomeCompleto" >
+        </div>
+        <div>
+            <label for="user-cpf">CPF:</label>
+            <input id="user-cpf" type="number" formControlName="cpf" id="">
+        </div>
+        <div>
+            <label for="user-email">E-mail:</label>
+            <input id="user-email" type="text" formControlName="email">
+        </div>
+        <div>
+            <label for="user-password">Senha:</label>
+            <input id="user-password" type="text" formControlName="senha">
+        </div>
+        <button type="submit" (click)="onSubmit()">Enviar</button>
+    </form>   
+</div>
+<app-footer></app-footer>
